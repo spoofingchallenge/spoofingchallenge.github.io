@@ -38,15 +38,15 @@ P.dir { color: slategray;
 font-family: arial, helvetica, sans-serif;
 line-height: 0.6cm }
 
-H1 { color: chocolate; 
+H1 { color: dimgray; 
  text-decoration: none;
  font-size: 30pt;
 font-family: arial, helvetica, sans-serif;
 }
 
-H2 { color: dimgray; 
+H2 { color: chocolate; 
  text-decoration: none;
- font-size: 16pt;
+ font-size: 20pt;
 font-family: arial, helvetica, sans-serif;
 }
 
