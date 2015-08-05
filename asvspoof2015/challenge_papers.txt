@@ -1,0 +1,54 @@
+
+"The AHOLAB RPS SSD Spoofing Challenge 2015 submission", Jon Sanchez, Ibon Saratxaga, Inma Hernaez, Eva Navas, Daniel Erro
+
+"Development of CRIM System for the Automatic Speaker Verification Spoofing and Countermeasures Challenge 2015", Md Jahangir Alam, Patrick Kenny, Gautam Bhattacharya, Themos Stafylakis
+CRIM, Montreal, Quebec, Canada
+
+"Spoofing Detection with DNN and One-class SVM for the ASVspoof 2015 Challenge", Jesus Villalba, Antonio Miguel, Alfonso Ortega, Eduardo Lleida
+ViVoLab, Aragon Institute for Engineering Research (I3A), University of Zaragoza, Spain
+
+"Spoofing Countermeasure Based on Analysis of Linear Prediction Error", Artur Janicki
+Institute of Telecommunications, Warsaw University of Technology, Warsaw, Poland
+
+"Relative phase information for detecting human speech and spoofed speech", Longbiao Wang , Yohei Yoshida, Yuta Kawakami, Seiichi Nakagawa
+Nagaoka University of Technology, Japan
+Toyohashi University of Technology, Japan
+
+"Spoofing Speech Detection Using High Dimensional Magnitude and Phase Features: the NTU Approach for ASVspoof 2015 Challenge", Xiong Xiao, Xiaohai Tian, Steven Du, Haihua Xu, Eng Siong Chng, Haizhou Li
+
+"Robust Deep Feature for Spoofing Detection - The SJTU System for ASVspoof 2015 Challenge", Nanxin Chen, Yanmin Qian, Heinrich Dinkel, Bo Chen, Kai Yu
+Shanghai Jiao Tong University, Shanghai, China
+
+
+"STC Anti-spoofing Systems for the ASVspoof 2015 Challenge", Sergey Novoselov, Alexandr Kozlov, Galina Lavrentyeva, Konstantin Simonchik, Vadim Shchemelinin
+ITMO University, St. Petersburg, Russia
+Speech Technology Center Ltd., St. Petersburg, Russia
+
+"The SYSU System for the Interspeech 2015 Automatic Speaker Verification Spoofing and Countermeasures Challenge", Shitao Weng, Shushan Chen, Lei Yu, Xuewei Wu, Weicheng Cai, Zhi Liu, Ming Li
+SYSU-CMU Joint Institute of Engineering, Sun Yat-Sen University, Guangzhou, China
+SYSU-CMU Shunde International Joint Research Institute, Guangdong, China
+
+"Simultaneous Utilization of Spectral Magnitude and Phase Information to Extract Supervectors for Speaker Verification Anti-spoofing", Yi Liu, Yao Tian, Liang He, Jia Liu, Michael T. Johnson
+
+
+
+
+
+
+
+
+
+"The AHOLAB RPS SSD Spoofing Challenge 2015 submission", Jon Sanchez, Ibon Saratxaga, Inma Hernaez, Eva Navas, Daniel Erro
+"Development of CRIM System for the Automatic Speaker Verification Spoofing and Countermeasures Challenge 2015", Md Jahangir Alam, Patrick Kenny, Gautam Bhattacharya, Themos Stafylakis
+"Spoofing Detection with DNN and One-class SVM for the ASVspoof 2015 Challenge", Jesus Villalba, Antonio Miguel, Alfonso Ortega, Eduardo Lleida
+"Spoofing Countermeasure Based on Analysis of Linear Prediction Error", Artur Janicki
+"Relative phase information for detecting human speech and spoofed speech", Longbiao Wang , Yohei Yoshida, Yuta Kawakami, Seiichi Nakagawa
+"Spoofing Speech Detection Using High Dimensional Magnitude and Phase Features: the NTU Approach for ASVspoof 2015 Challenge", Xiong Xiao, Xiaohai Tian, Steven Du, Haihua Xu, Eng Siong Chng, Haizhou Li
+"Robust Deep Feature for Spoofing Detection - The SJTU System for ASVspoof 2015 Challenge", Nanxin Chen, Yanmin Qian, Heinrich Dinkel, Bo Chen, Kai Yu
+"STC Anti-spoofing Systems for the ASVspoof 2015 Challenge", Sergey Novoselov, Alexandr Kozlov, Galina Lavrentyeva, Konstantin Simonchik, Vadim Shchemelinin
+"The SYSU System for the Interspeech 2015 Automatic Speaker Verification Spoofing and Countermeasures Challenge", Shitao Weng, Shushan Chen, Lei Yu, Xuewei Wu, Weicheng Cai, Zhi Liu, Ming Li
+"Simultaneous Utilization of Spectral Magnitude and Phase Information to Extract Supervectors for Speaker Verification Anti-spoofing", Yi Liu, Yao Tian, Liang He, Jia Liu, Michael T. Johnson
+"Combining Evidences from Mel Cepstral, Cochlear Filter Cepstral and Instantaneous Frequency Features for Detection of Natural vs. Spoofed Speech", Tanvina B. Patel, Hemant A. Patil
+
+
+
