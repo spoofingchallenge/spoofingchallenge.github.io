@@ -1,0 +1,179 @@
+
+
+<html>
+
+  <head>
+
+    <title>Spoofing and Countermeasures Challenge</title>
+
+    <link rel="stylesheet" href="stylesheet.css"> 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-57968187-1', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+  </head>
+<body alink="#ff0000" bgcolor="#ffffff" text="#000000" vlink="#760076" link="#0000a3">
+<center>
+<a name="top"></a>
+
+<table width="800">
+<tbody><tr>
+<td>
+
+
+<table cellpadding="10" width=850>
+<tr>
+<td>
+<table cellpadding = "1" width=800>
+<tr><td align="top"><center><h2>ASVspoof 2015:</h2></center></td></tr>
+<tr><td align="top"><center><h1>Automatic Speaker Verification</h1></center></td></tr>
+<tr><td align="top"><center><h1>Spoofing and Countermeasures Challenge</h1></center></td></tr>
+
+</table>
+</td>
+</tr>
+</table>
+
+
+
+<table cellpadding="10" width=850>
+<tr>
+<td>
+
+<a name="purpose"></a>
+<h3>Introduction</h2>
+
+<p>
+Do you have a method/algorithm to discriminate between human and synthetic speech (generated from speech synthesis or voice conversion systems)?
+If so, you are invited to take part in the Automatic Speaker Verification
+Spoofing and Countermeasures (ASVspoof) Challenge.
+
+<p>Previously, both spoofing attacks and countermeasures have been developed with full knowledge of a particular 
+speaker verification system used for vulnerability assessments.  Similarly, countermeasures have been developed 
+with full knowledge of the spoofing attack which they are designed to detect.  This is clearly unrepresentative 
+on the real use case scenario in which the specific attack, much less the specific algorithm, can never been known a priori.  
+It is thus likely that the prior work  has as much over-exaggerated the threat of spoofing as it has the 
+performance of countermeasures. </p>
+
+<p>The ASVspoof challenge has been designed to help break this mould and to support, 
+for the first time, independent assessments of vulnerabilities to spoofing and of countermeasure performance.  
+While preventing as much as possible the inappropriate use of prior knowledge, the challenge aims 
+to stimulate the development of generalised countermeasures with potential to detect varying and unforeseen spoofing attacks. </p>
+
+<p>The first evaluation, ASVspoof 2015, is being held within the scope of a special session at INTERSPEECH 2015 
+and with a focus on spoofing detection.  Participants are invited to submit spoofing detection results. 
+You will be provide with a spoofing database along with a protocol for experiments. The spoofing database
+is generated from more than ten voice conversion and speech synthesis spoofing techniques. Your task is 
+to develop a classifier/detector 
+ on the development data to deal with some known spoofing attacks, and then apply your classifier or system 
+on a evaluation data with both known attacks and some unknown attacks. Your classifier or system is expected to be 
+reliable to both known and 
+unknown attacks. <b>No prior knowledge of automatic speaker verification technology is required to participate in the challenge!</b>
+
+<p><b><a href="http://www.spoofingchallenge.org/asvSpoof.pdf">Evaluation plan</a>:</b> Details of the evaluation plan can be access through this document: <a href="http://www.spoofingchallenge.org/asvSpoof.pdf">http://www.spoofingchallenge.org/asvSpoof.pdf</a></p>
+
+<p>Results of the Challenge will be disseminated at a Special Session of <a href="http://interspeech2015.org/">Interspeech 2015</a>.
+
+<p>The database is now publicly-available: <a href="http://dx.doi.org/10.7488/ds/298">http://dx.doi.org/10.7488/ds/298</a></p>
+
+<h3>Getting the data</h3>
+
+<p>The spoofing database is freely-available to all participants, please follow the following steps to get the data:</p>
+<ol>
+  <li>Please send a request to <a href="mailto:zhizheng.wu@ed.ac.uk">Zhizheng Wu</a> (zhizheng.wu@ed.ac.uk) to get an username and a password. Please indicate your institute in the email.</li>
+  <li>Go to this webpage: <a href="http://dx.doi.org/10.7488/ds/298">http://dx.doi.org/10.7488/ds/298</a></li>
+  <li>Enter your username and password as requested by above webpage</li>
+  <li>Download 'ASVspoof2015_development.tar.gz', the size of the file is 5865596645 bytes</li>
+  <li>Use the md5 checksum to verify your downloads: 0cdc334767cae92c541f220be650ef48</li>
+  
+</ol>
+
+<p>There is a mailing list for discussion for the challenge. Participants can also request a membership of the mailing list when they are requesting the username and password. Anyone who is interested in this topic but does not want to participant in the challenge, you can also request membership of the mailing list by send an email to Zhizheng Wu.</p>
+
+<h3>Background information</h3>
+You could get some background information on spoofing and anti-spoofing from the survey paper: 
+
+<p> Zhizheng Wu, Nicholas Evans, Tomi Kinnunen, Junichi Yamagishi, Federico Alegre, Haizhou Li, "<b>Spoofing and countermeasures for speaker verification: a survey</b>", Speech Communication, Volume 66, Pages 130–153, 2015 [<a href="http://www.sciencedirect.com/science/article/pii/S0167639314000788">PDF</a>]
+
+
+
+<h3>Submission of Results</h3>
+<a name="results"></a>
+
+<p>Each team is required to submit a brief system description in PDF format, and can submit up to six score files as specified in the evaluation plan.
+<p>Each score file should be named according to the following convention &lt;team&gt;_&lt;training-condition&gt;_&lt;submission&gt;.
+<p>Each score file is about 1.2Mb after compression (4Mb before compression). Score files can be submitted by different emails, or all the score files are compressed into one archive. The archive name should indicate the team name. Participants need to indicate the primary score file.
+<p>The score files should be submitted by email attachment to <a href="mailto:asvspoof2015@spoofingchallenge.org">asvspoof2015@spoofingchallenge.org</a> with the following subject line: ASVspoof submission for &lt;team name&gt;.
+
+<h3>Paper Submission</h3>
+ 
+Please submit your challenge paper to the special session in Interspeech 2015: Automatic Speaker Verification Spoofing and Countermeasures (in area 4: Speaker and Language Identification).
+
+The organisers also submit an overview paper to the special session: <b><a href="http://www.spoofingchallenge.org/is2015_asvspoof.pdf">ASVspoof 2015: the First Automatic Speaker Verification Spoofing and Countermeasures Challenge</a></b>. The paper decribes the  ASVspoof database, protocol, and metrics; and also summerises participants results.
+
+<p> Z. Wu, T. Kinnunen, N. Evans, J. Yamagishi, C. Hanilci, M. Sahidullah, A. Sizov, "<b>ASVspoof 2015: the First Automatic Speaker Verification Spoofing and Countermeasures Challenge</b>", Interspeech 2015 (accepted) </p>
+
+
+<h3>Challenge papers and results</h3>
+<p> Zhizheng Wu, Tomi Kinnunen, Nicolas Evans, Junichi Yamagishi, Cemal Hanilci, Md Sahidullah, Aleksandr Sizov, "<b>ASVspoof 2015: the First Automatic Speaker Verification Spoofing and Countermeasures Challenge</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/is2015_asvspoof.pdf">[PDF]</a></p>
+<p>Md Jahangir Alam, Patrick Kenny, Gautam Bhattacharya, Themos Stafylakis, "<b>Development of CRIM System for the Automatic Speaker Verification Spoofing and Countermeasures Challenge 2015</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/CRIM.pdf">[PDF]</a> </p>
+<p>Nanxin Chen, Yanmin Qian, Heinrich Dinkel, Bo Chen, Kai Yu, "<b>Robust Deep Feature for Spoofing Detection - The SJTU System for ASVspoof 2015 Challenge</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/sjtu.pdf">[PDF]</a> </p> 
+<p>Artur Janicki, "<b>Spoofing Countermeasure Based on Analysis of Linear Prediction Error</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/ajanicki.pdf">[PDF]</a></p> 
+<p>Yi Liu, Yao Tian, Liang He, Jia Liu, Michael T. Johnson, "<b>Simultaneous Utilization of Spectral Magnitude and Phase Information to Extract Supervectors for Speaker Verification Anti-spoofing</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/THUEE.pdf">[PDF]</a></p> 
+<p>Sergey Novoselov, Alexandr Kozlov, Galina Lavrentyeva, Konstantin Simonchik, Vadim Shchemelinin, "<b>STC Anti-spoofing Systems for the ASVspoof 2015 Challenge</b>", arXiv:1507.08074, 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/STC.pdf">[PDF]</a></p> 
+<p>Tanvina B. Patel, Hemant A. Patil, "<b>Combining Evidences from Mel Cepstral, Cochlear Filter Cepstral and Instantaneous Frequency Features for Detection of Natural vs. Spoofed Speech</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/da-iiit.pdf">[PDF]</a></p>
+<p>Jon Sanchez, Ibon Saratxaga, Inma Hernaez, Eva Navas, Daniel Erro, "<b>The AHOLAB RPS SSD Spoofing Challenge 2015 submission</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/aholab.pdf">[PDF]</a></p> 
+<p>Jesus Villalba, Antonio Miguel, Alfonso Ortega, Eduardo Lleida, "<b>Spoofing Detection with DNN and One-class SVM for the ASVspoof 2015 Challenge</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/I3A.pdf">[PDF]</a></p> 
+<p>Longbiao Wang , Yohei Yoshida, Yuta Kawakami, Seiichi Nakagawa, "<b>Relative phase information for detecting human speech and spoofed speech</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/longbiao.pdf">[PDF]</a></p> 
+<p>Shitao Weng, Shushan Chen, Lei Yu, Xuewei Wu, Weicheng Cai, Zhi Liu, Ming Li, "<b>The SYSU System for the Interspeech 2015 Automatic Speaker Verification Spoofing and Countermeasures Challenge</b>", arXiv:1507.06711, 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/SYSU_v2.pdf">[PDF]</a></p> 
+<p>Xiong Xiao, Xiaohai Tian, Steven Du, Haihua Xu, Eng Siong Chng, Haizhou Li, "<b>Spoofing Speech Detection Using High Dimensional Magnitude and Phase Features: the NTU Approach for ASVspoof 2015 Challenge</b>", Interspeech 2015 <a href="http://www.spoofingchallenge.org/asvspoof2015/NTU.pdf">[PDF]</a></p>
+
+ 
+<h3>Important dates</h3>
+<a name="deadlines"></a>
+
+<table width=720><tr><td align=center>
+<table border="0" cellpadding="3" rules="groups">
+<tbody><tr><td align="right">16th December 2014</td><td>Release development materials</td></tr></tbody>
+<tbody><tr><td align="right">6th February 2015</td><td>Release evaluation data</td></tr></tbody>
+<tbody><tr><td align="right">20th February 2015</td><td>Deadline for receipt of evaluation scores</td></tr></tbody>
+<tbody><tr><td align="right">27th February 2015</td><td>Anti-spoofing evaluation results returned to participants</td></tr></tbody>
+<tbody><tr><td align="right">20th March 2015</td><td>Interspeech paper submission deadline</td></tr></tbody>
+<tbody><tr><td align="right">15th June 2015</td><td>Release meta information (including keys) for evaluation data to participants</td></tr></tbody>
+<tbody><tr><td align="right">September 2015</td><td>Special session at Interspeech, Dresden, Germany</td></tr></tbody>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+<h3>Organisers</h2>
+<a name="organisers"></a>
+
+<a href="mailto:zhizheng.wu@ed.ac.uk">Zhizheng Wu</a>, University of Edinburgh, UK <br> 
+<a href="mailto:tkinnu@cs.joensuu.fi">Tomi Kinnunen</a>, University of Eastern Finland, Finland <br> 
+<a href="mailto:evans@eurecom.fr">Nicholas Evans</a>, EURECOM, France <br>
+<a href="mailto:jyamagis@inf.ed.ac.uk">Junichi Yamagishi</a>, University of Edinburgh, UK <br>
+
+
+
+
+
+
+</td>
+</tr>
+</tbody></table>
+</center>
+
+</body>
+
+</html>
+
+  
