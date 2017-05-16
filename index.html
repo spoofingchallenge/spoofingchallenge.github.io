@@ -2,144 +2,15 @@
 <html>
 
   <head>
-
-    <title>Spoofing and Countermeasures Challenge</title>
-
-    <link rel="stylesheet" href="stylesheet.css"> 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
-    ga('create', 'UA-57968187-1', 'auto');
-    ga('send', 'pageview');
-  
-  </script>
-   <meta charset="UTF-8"> 
+  <title>Page redirection</title>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="refresh" content="1; url=http://www.asvspoof.org/">
+   <script>
+     window.location.href = "http://www.asvspoof.org/";
+   </script>
   </head>
-<body alink="#ff0000" bgcolor="#ffffff" text="#000000" vlink="#760076" link="#0000a3">
-<center>
-<a name="top"></a>
-
-<table width="800">
-<tbody><tr>
-<td>
-
-
-<table cellpadding="10" width=850>
-<tr>
-<td>
-<table cellpadding = "1" width=800>
-<tr><td align="top"><center><h2>ASVspoof 2017:</h2></center></td></tr>
-<tr><td align="top"><center><h1>Automatic Speaker Verification</h1></center></td></tr>
-<tr><td align="top"><center><h1>Spoofing and Countermeasures Challenge</h1></center></td></tr>
-<tr><td align="top"><center><i>Theme in the 2017 edition: Audio replay attack detection</i></center></td></tr>
-
-</table>
-</td>
-</tr>
-</table>
-
-
-
-<table cellpadding="10" width=850>
-<tr>
-<td>
-
-
-
-<a name="purpose"></a>
-<h3>Introduction</h2>
-
-<p>
-Are you good at machine learning for audio signals? Are you good at discriminating 'fake' signals from authentic ones? Are you looking for new audio processing challenges? Do you work in the domain of speaker recognition or a related field? If so, you are invited to take part in the Automatic Speaker Verification Spoofing and Countermeasures (ASVspoof) Challenge. </p>
-
-<p>
-The overall objective of the challenge series is to enhance the security of automatic speaker verification (ASV) systems against intentional circumvention using fake audio recordings, also known as 'spoofing attacks' or 'presentation attacks'. ASVspoof 2017 is a second edition of a challenge kicked off in 2015 (find old page <a href="index2015.html">here</a>), that focused on detection of artificial speech created using speech synthesis and voice conversion methods. The new perspective in the 2017 challenge edition are <b>replay attacks</b>, especially those encountered under 'unseen' conditions - for instance, containing replay environments, playback devices or talkers that might be different from those in the training data. An ideal replay detection system should be reliable to both known and unknown conditions – our data will contain a mixture of both. This is in accordance with the general direction to enhance generality of spoofing attack detection to unforeseen conditions.</p>
-
-
-<p><b>Despite 'ASV' being in the title, no prior knowledge of automatic speaker verification technology is required to participate in the challenge!</b> The task is a 'standalone' replay audio detection task that can be addressed as a generic audio pattern classification problem using your favorite machine learning techniques from other domains. We welcome as many new ideas as possible!</p>
-
-<h3>Challenge task</h3>
-<p>Given a short clip of speech audio, determine whether it is a GENUINE human voice (live recording), or a REPLAY recording (fake). You will be provided a labeled development set of genuine/replay labeled audio examples, along with further metadata about the speech content, devices and replay environment. Your task is to develop a system that assigns a single 'liveness' or 'genuineness' score to a new audio clip, and to execute your system on a set of test files for which the ground truth is not provided</p>
-
-<p> For more details, refer to the evaluation plan: <a href="data2017/asvspoof-2017_evalplan_v1.1.pdf">Automatic Speaker Veriﬁcation Spooﬁng and Countermeasures Challenge Evaluation Plan (PDF)</a></p>
-
-<h3>Obtaining the data</h3>
-
-<p>ASVspoof 2017 data is based primarily on the ongoing Reddots data collection project (<a href="https://sites.google.com/site/thereddotsproject/">link</a>) processed through various replay conditions. To obtain the development data, </p>
-<ol>
-  <li>Please send a request to <a href="mailto:asvspoof2017@cs.uef.fi">asvspoof2017@cs.uef.fi</a> to obtain a download link. Please indicate your institute in the email.</li>
-  <li>The development file size should be 346.87 MB. You may additionally verify the md5 checksum of the package: 3a7e3fffa50609dc31781d5ba1807581</li>
-</ol>
-
-<p>In addition, there will be also a mailing list for the challenge</p>
-
-<h3>Baseline replay attack detector</h3>
-<p>In order to kick-off quickly with your experiments on the dev-data, you may use our Matlab-based reference replay attack spoofing detector here: <a href="data2017/baseline_CM.zip">baseline_CM.zip</a></p>
-
-<h3>Further information</h3>
-<p>Please refer to the earlier 2015 challenge edition <a href="index2015.html">here</a> for general background. We will also keep adding other useful readings to this page.</p>
-
-<div style="background-color: #f6e3d6;">
-<b>A draft version of the challenge overview paper is now available:</b>
-<p style="background-color: #f6e3d6; margin-left:2em">Tomi Kinnunen, Md Sahidullah, Hector Delgado, Massimiliano Todisco, Nicholas Evans, Junichi Yamagishi, Kong Aik Lee, "<b>The ASVspoof 2017 Challenge: Assessing the Limits of Replay Spoofing Attack Detection</b>", manuscript, submitted to Interspeech 2017. [<a href="asvspoof2017overview.pdf">PDF</a>]</p>
-</div>
-
-<p>T. Kinnunen, M. Sahidullah, M. Falcone, L. Costantini, R. Gonzalez Hautamäki, D. Thomsen, A. Sarkar, Z.-H. Tan, H. Delgado, M. Todisco, N. Evans, V. Hautamäki, K. A. Lee, ”<b>RedDots Replayed: A New Replay Spoofing Attack Corpus for Text-Dependent Speaker Verification Research</b>”, Proc. ICASSP 2017 [<a href="http://cs.joensuu.fi/pages/tkinnu/webpage/pdf/reddots-replayed-replayed_icassp2017.pdf">PDF</a>]</p>
-
-<p>Z. Wu, J. Yamagishi, T. Kinnunen, C. Hanilçi, M. Sahidullah, A. Sizov, N. Evans, M. Todisco, H. Delgado, “<b>ASVspoof: the Automatic Speaker Verification Spoofing and Countermeasures Challenge</b>”, IEEE Journal on Selected Topics in Signal Processing (to appear, <a href ="https://doi.org/10.1109/JSTSP.2017.2671435">https://doi.org/10.1109/JSTSP.2017.2671435</a>) [<a href="papers/IEEE_J_STSP_ASVspoof.pdf">PDF</a>]</p>
-
-<p>M. Todisco, H. Delgado, N. Evans, “<b>Constant Q Cepstral Coefficients:
-A Spoofing Countermeasure for Automatic Speaker Verification</b>”, Computer Speech and Language 
-(to appear, <a href ="http://dx.doi.org/10.1016/j.csl.2017.01.001">http://dx.doi.org/10.1016/j.csl.2017.01.001</a>) [<a href="papers/CSL_CQCC.pdf">PDF</a>]</p>
-
-<h3>Submission of results</h3>
-
-<p>Each team is required to submit a brief system description in PDF format, and can submit up to six score files as specified in the <a href="data2017/asvspoof-2017_evalplan_v1.1.pdf">evaluation plan</a>. Score files can be submitted by different emails, or all the score files can be compressed into one archive. The name of the archive should include the team name. Participants should indicate which one is their primary submission that will be used by the organizers to rank the results. The evaluation set score files should be submitted as email attachment to <a href="mailto:asvspoof2017@cs.uef.fi">asvspoof2017@cs.uef.fi</a>. </p>
-
-<h3>Paper Submission</h3>
- 
-<p>The results of the Challenge are planned to be disseminated at a Special Session of INTERSPEECH 2017 (official information pending) (<a href="http://www.interspeech2017.org/">link</a>). We invite you to submit a manuscript of your challenge work to INTERSPEECH 2017. The organizers will also submit a general challenge overview paper that will be uploaded on this page before the submission deadline (estimated mid February).  </p>
-
-
-<h3>Challenge papers and results</h3>
-Will be added here later. 
- 
-<h3>Important dates</h3>
-<a name="deadlines"></a>
-
-<table width=720><tr><td align=center>
-<table class="deadlines" border="0" cellpadding="5" rules="groups" style="border-spacing:5px 0px">
-<tbody><tr><td align="right">December 23, 2016</td><td>Development data published</td></tr></tbody>
-<tbody><tr><td align="right">February 10, 2017</td><td>Evaluation data published</td></tr></tbody>
-<tbody><tr><td align="right">February 24, 2017</td><td>Evaluation scores due</td></tr></tbody>
-<tbody><tr><td align="right">March 3, 2017</td><td>Results available</td></tr></tbody>
-<tbody><tr><td align="right">March 14, 2017</td><td>Interspeech paper submission deadline</td></tr></tbody>
-<tbody><tr><td align="right">May 2017</td><td>Metadata/keys of evaluation data released</td></tr></tbody>
-<tbody><tr><td align="right">August 2017</td><td>Interspeech 2017 (Stockholm, Sweden)</td></tr></tbody>
-</table>
-</td>
-</tr>
-</table>
-
-<h3>Organisers</h2>
-<a name="organisers"></a>
-
-<a href="mailto:tkinnu@cs.joensuu.fi">Tomi Kinnunen</a>, University of Eastern Finland, FINLAND <br> 
-<a href="mailto:evans@eurecom.fr">Nicholas Evans</a>, EURECOM, FRANCE <br>
-<a href="mailto:jyamagis@inf.ed.ac.uk">Junichi Yamagishi</a>, National Institute of Informatics, JAPAN / University of Edinburgh, UK <br>
-Kong Aik Lee, Institute for Infocomm Research, SINGAPORE <br>
-Md Sahidullah, University of Eastern Finland, FINLAND <br>
-Massimiliano Todisco, Eurecom, FRANCE <br>
-Hector Delgado, Eurecom, FRANCE <br>
-
-</td>
-</tr>
-</tbody></table>
-</center>
-
+<body>
+Content moved under <a href="http://www.asvspoof.org/">this domain</a>
 </body>
 
 </html>
